@@ -5,13 +5,13 @@ const devConfig = {
     mode: 'development',
     devtool: 'source-map',
     devServer: {
-        port: 8082,
+        port: 8083,
         historyApiFallback: {
             index: '/'
         },
     },
     output: {
-        publicPath: "http://localhost:8082/",
+        publicPath: "http://localhost:8083/",
     },
     plugins: [
     ],

@@ -3,7 +3,7 @@ const path = require('path');
 
 const commonConfig = require('./webpack.common')
 
-const DOMAIN = process.env.DOMAIN || 'https://mfe-test.github.io/remote-vue3/';
+const DOMAIN = process.env.DOMAIN || 'https://mfe-test.github.io/remote-vue2/';
 const prodConfig = {
   mode: 'production',
   output: {

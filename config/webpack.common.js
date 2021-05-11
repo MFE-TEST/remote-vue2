@@ -104,10 +104,10 @@ module.exports = {
       template: './public/index.html',
     }),
     new ModuleFederationPlugin({
-      name: "vue3",
+      name: "vue2",
       filename: "remoteEntry.js",
       exposes: {
-        "./Vue3": "./src/bootstrap.js",
+        "./Vue2": "./src/bootstrap.js",
       },
 
     })
